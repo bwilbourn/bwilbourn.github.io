@@ -1,6 +1,9 @@
 body {
     background-image: url('wood.jpg');
-    background-size: 100%;
+    background-size: cover;
+}
+
+.special-text {
     font-family: 'Lobster Two', cursive;
 }
 
@@ -8,12 +11,14 @@ h1 {
     font-size: 5em;
     font-family: 'Courgette', cursive;
     color: #80dfff;
+    text-align: center;
 }
 
 h2 {
-    font-family: italic;
     font-size: 2em;
     color: #80dfff;
+    text-align: center;
+    font-weight: bolder;
 }
 
 .About-me {
@@ -25,48 +30,18 @@ h2 {
     border-radius: 20px;
     font-style: bold;
 }
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-    border: 1px solid #555;
-}
 
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-li {
-    text-align: center;
-    border-bottom: 1px solid #555;
-}
-
-li:last-child {
-    border-bottom: none;
-}
-
-li a.active {
-    background-color: #4caf50;
-    color: white;
-}
-
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-ul.nav {
-    float: right;
-} */
-.britney {
-    text-align: center;
-}
-
-.navbar_navbar-default {
-    background-color: rgba(46, 48, 47, 0.6);
+.Projects {
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 1.35pc;
     color: #4d2600;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 20px;
+    font-style: bold;
+}
+
+img {
+    border-radius: 12px;
+    border: 2px solid #80dfff;
 }
