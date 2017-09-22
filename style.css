@@ -1,5 +1,5 @@
 body {
-    background-image: url('/home/basecamp/Pictures/wood.jpg');
+    background-image: url('wood.jpg');
     background-size: 100%;
     font-family: 'Lobster Two', cursive;
 }
@@ -25,7 +25,7 @@ h2 {
     border-radius: 20px;
     font-style: bold;
 }
-ul {
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -51,10 +51,22 @@ li:last-child {
 }
 
 li a.active {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: white;
 }
 
 li a:hover:not(.active) {
     background-color: #555;
     color: white;
+}
+ul.nav {
+    float: right;
+} */
+.britney {
+    text-align: center;
+}
+
+.navbar_navbar-default {
+    background-color: rgba(46, 48, 47, 0.6);
+    color: #4d2600;
+}
